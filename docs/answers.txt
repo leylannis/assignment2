@@ -1,0 +1,68 @@
+(a)
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 829 bytes | 207.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/leylannis/assignment2.git
+   f4975e5..9b392a1  master -> master
+
+(b)
+9
+git shortlog
+then added for all contributers
+
+(c)
+Date:   Wed Sep 25 18:13:30 2019 -0400
+git log --name-only
+
+(d)
+Branching makes it easier to divide individual work, maintaining 
+a "good quality" master branch.
+Branching also allows easy merging of updated files along with
+a history of all changes.
+
+(e)
+Git log gives a list of the project history (past commits) with 
+various sorting options whereas git status just gives a list 
+of what files/changes are staged, unstaged, and untracked in the working
+directory and staging area.
+
+(f)
+git log --follow vehicle.h
+
+(g)
+git log --grep=file
+
+(h)
+In the context of object oriented programming, inheritance is where an
+object has any number of child objects where each inherit attributes 
+from its parent. Polymorphism is when an object of a derived class 
+is able to be processed as a more specific version of the general class.
+Encapsulation is the idea of hiding internal data and methods from
+the outside view of an object, it bundles the data and methods and work
+on itself.
+
+(i)
+The main difference between "Dictator and Lieutenants" workflow and 
+the "Integration manager" workflow is that Dictator and Lieutenants
+breaks the work down into much smaller groups and individual developers
+dont have to worry about integration at all, the changes go through a
+line of superiors whereas the Integration manager forces individual
+developers to copy the work and publish their own work to then be
+integrated by a single manager. The D/L allows developers to work more
+freely and the IM is a closer knit workflow that promotes communication
+without waiting.
+
+(j)
+Being that it is such a large group, they could benefit from 
+following the "Dictator and Lieutenants" workflow because it allows
+a greater division of work the breakdown allows large groups of people
+to work on a specific part of the project without having to worry about
+integration and what changes everyone else involved is making. 
+If they followed the "Centralized" workflow it would be inefficient
+and difficult to manage such a large group of people trying to work 
+on the same shared repository since each person would have to pull 
+and update, even for a minor change, before pushing again.
