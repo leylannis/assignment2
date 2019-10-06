@@ -66,3 +66,10 @@ If they followed the "Centralized" workflow it would be inefficient
 and difficult to manage such a large group of people trying to work 
 on the same shared repository since each person would have to pull 
 and update, even for a minor change, before pushing again.
+
+OOP PRINCIPLES
+The driving simulator uses polymorphism since each derived class just
+becomes a more specific version of its superclass, still sharing some
+attributes. It also uses encapsulation since there are private member
+data that is worked on only via member functions that cannot be accessed
+from the outside; and do not need to be.
