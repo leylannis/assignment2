@@ -1,6 +1,9 @@
 #include <iostream>
 #include "Car.h"
 #include "Bicycle.h"
+#include "jet.h"
+#include "skateboard.h"
+#include "train.h"
 
 void printVehiclesRoster(Vehicle **vehicles, int size);
 
@@ -16,6 +19,12 @@ int main() {
     vehiclesArray[3] = new Car("Tesla", "T2", "electricity", "large");
     vehiclesArray[4] = new Bicycle("Mizuno", "Wave", 10);
     vehiclesArray[5] = new Car("BMW", "X5", "diesel", "grande");
+    vehiclesArray[6] = new Jet();
+    vehiclesArray[7] = new Jet("Airbus", "A330", "unknown", 3);
+    vehiclesArray[8] = new Skateboard();
+    vehiclesArray[9] = new Skateboard("Flip", "HKD");
+    vehiclesArray[10] = new Train();
+    vehiclesArray[11] = new Train("CIWL", "Golden Arrow", "unknown", "passenger");
 
     printVehiclesRoster(vehiclesArray, size);
 
